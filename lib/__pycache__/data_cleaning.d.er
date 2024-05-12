@@ -1,0 +1,7 @@
+##[pylyzer] failed /home/tommg/Documents/Code/Python/fm20_player_sorting/lib/data_cleaning.py 1715517424 716
+.pd: Never
+
+.np: Never
+
+.filter_attributes: |Self <: Indexable(K, Never), K :> {"Dec", "Det", "Tea", "Com", "Cnt", "Nat"}|(df: Self) -> Self
+.find_player: |R: Type|(position: Obj, upper_value: R, low_value: R, df: Indexable(Obj, Never)) -> Never
