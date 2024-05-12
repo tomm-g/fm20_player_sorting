@@ -21,7 +21,7 @@ python3 main.py <position> <upper_value_limit> <lower_value_limit>
 
 To get all positions, leave the position blank.
 
-## Possible Positions
+### Possible Positions
 
 ```
 'AM (RC), ST (C)',
