@@ -21,6 +21,6 @@ def find_player(position, upper_value, low_value, df):
         result_df = result_df[result_df['Position'].str.contains(position)]
 
     result_df = result_df.sort_values(attributes, ascending=False)
-    result_df = result_df.iloc[:10]
+    #result_df = result_df.iloc[:10]
     return result_df
 
